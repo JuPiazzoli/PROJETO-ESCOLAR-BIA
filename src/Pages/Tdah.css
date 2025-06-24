@@ -49,7 +49,6 @@
 
 /* Listas */
 .ull {
-  margin-left: 20px;
   margin-top: 10px;
 }
 
@@ -69,7 +68,7 @@
   }
 
   .tdah-container h1 {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
   }
 
   .tdah-container h2 {

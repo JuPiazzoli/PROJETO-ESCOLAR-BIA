@@ -79,4 +79,13 @@
   .def-container h3 {
     font-size: 1.3rem;
   }
+  .ul p {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  background-color: var(--primaria);
+  width: 75vw;
+  padding: 2px;
+  border-radius: 5px;
+}
 }

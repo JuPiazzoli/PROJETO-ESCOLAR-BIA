@@ -1,0 +1,95 @@
+/* Título principal */
+.Titulo {
+  text-align: center;
+  color: var(--primaria);
+  margin: 40px 0 30px 0;
+  font-size: 2.8rem;
+  border-bottom: 2px solid var(--primaria);
+  padding-bottom: 10px;
+}
+
+/* Container principal */
+.Flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 40px;
+}
+
+/* Texto de apresentação */
+.apresentacao {
+  max-width: 750px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.apresentacao p {
+  margin-bottom: 1.2em;
+  text-align: justify;
+  font-size: 0.98rem;
+}
+
+.apresentacao strong {
+  color: var(--secundaria);
+}
+
+/* Coluna lateral */
+.Flex-Colunm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 420px;
+}
+
+.Flex-Colunm h2 {
+  margin: 15px 0 10px 0;
+  color: var(--primaria);
+  border-bottom: 2px solid var(--primaria);
+  padding-bottom: 5px;
+}
+
+.Flex-Colunm img {
+  width: 40%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.Flex-row-I {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.Flex-Colunm img:hover {
+  transform: scale(1.03);
+}
+
+/* Imagens */
+.Fund,
+.Colab {
+  object-fit: cover;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  .Flex-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .Flex-Colunm {
+    max-width: 450px;
+  }
+
+  .Titulo {
+    font-size: 2.3rem;
+  }
+}

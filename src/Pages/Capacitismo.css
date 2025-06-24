@@ -1,0 +1,73 @@
+/* Container principal */
+.capacitismo-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: var(--neutro);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Título principal */
+.capacitismo-container h1 {
+  text-align: center;
+  color: var(--primaria);
+  margin-bottom: 30px;
+  font-size: 2.7rem;
+  border-bottom: 2px solid var(--primaria);
+  padding-bottom: 8px;
+}
+
+/* Títulos de seção */
+.capacitismo-container h2 {
+  color: var(--secundaria);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+/* Parágrafos */
+.capacitismo-container p {
+  text-align: justify;
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+/* Subtítulo destacado */
+.capacitismo-container strong {
+  color: var(--secundaria);
+}
+
+/* Lista */
+.topicos {
+  margin-top: 10px;
+}
+
+.topicos p {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  background-color: var(--primaria);
+  padding: 2px;
+  border-radius: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  .capacitismo-container {
+    margin: 20px;
+    padding: 25px;
+  }
+
+  .capacitismo-container h1 {
+    font-size: 2.3rem;
+  }
+
+  .capacitismo-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .topicos p {
+  margin-left: -5%;
+}
+}

@@ -1,0 +1,23 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cores principais */
+:root {
+  --primaria: #0066cc;
+  --secundaria: #004d99;
+  --neutro-claro: #f7f9fc;
+  --neutro: #ffffff;
+  --texto: #000000;
+}
+
+/* Corpo */
+body {
+  background-color: var(--neutro-claro);
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  color: var(--texto);
+  line-height: 1.7;
+}

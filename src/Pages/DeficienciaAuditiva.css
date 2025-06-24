@@ -1,0 +1,69 @@
+/* Container principal */
+.auditiva-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: var(--neutro);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Título principal */
+.auditiva-container h1 {
+  text-align: center;
+  color: var(--primaria);
+  margin-bottom: 30px;
+  font-size: 2.6rem;
+  border-bottom: 2px solid var(--primaria);
+  padding-bottom: 8px;
+}
+
+/* Títulos de seções */
+.auditiva-container h2 {
+  color: var(--secundaria);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+/* Parágrafos */
+.auditiva-container p {
+  text-align: justify;
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+/* Destaque */
+.auditiva-container strong {
+  color: var(--secundaria);
+}
+
+/* Listas */
+.auditiva-container ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.auditiva-container li {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--secundaria);
+}
+
+
+/* Responsividade */
+@media (max-width: 480px) {
+  .auditiva-container {
+    margin: 20px;
+    padding: 25px;
+  }
+
+  .auditiva-container h1 {
+    font-size: 2.3rem;
+  }
+
+  .auditiva-container h2 {
+    font-size: 1.6rem;
+  }
+}

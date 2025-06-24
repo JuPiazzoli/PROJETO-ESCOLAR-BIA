@@ -1,0 +1,82 @@
+
+/* Container principal */
+.tdah-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: var(--neutro);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Título principal */
+.tdah-container h1 {
+  text-align: center;
+  color: var(--primaria);
+  margin-bottom: 30px;
+  font-size: 2.6rem;
+  border-bottom: 2px solid var(--primaria);
+  padding-bottom: 8px;
+}
+
+/* Títulos de seções */
+.tdah-container h2 {
+  color: var(--secundaria);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+/* Subtítulos */
+.tdah-container h3 {
+  color: var(--primaria);
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+}
+
+/* Parágrafos */
+.tdah-container p {
+  text-align: justify;
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+/* Destaque */
+.tdah-container strong {
+  color: var(--secundaria);
+}
+
+/* Listas */
+.ull {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.ull p {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--primaria);
+}
+
+
+/* Responsividade */
+@media (max-width: 480px) {
+  .tdah-container {
+    margin: 20px;
+    padding: 25px;
+  }
+
+  .tdah-container h1 {
+    font-size: 2.0rem;
+  }
+
+  .tdah-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .tdah-container h3 {
+    font-size: 1.3rem;
+  }
+}

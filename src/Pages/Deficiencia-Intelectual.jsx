@@ -35,14 +35,14 @@ function DeficienciaIntelectual() {
             mas os principais são:
           </p>
 
-          <h3>&#8594 Atraso no desenvolvimento</h3>
+          <h3> &#8594; Atraso no desenvolvimento</h3>
           <p>
             A criança aprende de forma mais lenta e pode apresentar dificuldades
             para falar, formar frases ou executar atividades básicas como se
             vestir ou se alimentar sozinha.
           </p>
 
-          <h3>&#8594 Anomalias físicas</h3>
+          <h3> &#8594; Anomalias físicas</h3>
           <p>
             Algumas crianças podem apresentar características físicas
             específicas, como <strong>tamanho anormal da cabeça</strong>,
@@ -52,7 +52,7 @@ function DeficienciaIntelectual() {
             nascimento.
           </p>
 
-          <h3> &#8594 Doenças e desenvolvimento motor comprometido</h3>
+          <h3> &#8594; Doenças e desenvolvimento motor comprometido</h3>
           <p>
             Em alguns casos, a deficiência intelectual vem acompanhada de
             problemas como convulsões, distúrbios alimentares e crescimento

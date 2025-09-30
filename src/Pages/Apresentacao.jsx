@@ -6,7 +6,9 @@ import Fund1 from '../assets/Beatriz.jpg'
 import Fund2 from '../assets/Bonfim.jpg'
 import Colab1 from '../assets/Gustavo.jpg'
 import Colab2 from '../assets/Renan.jpg'
-import Colab3 from '../assets/Matheus.jpg'
+import Colab3 from '../assets/Felipe.jpeg'
+import Colab4 from '../assets/João.jpeg'
+import Colab5 from '../assets/Pedro.jpeg'
 import Footer from "../Components/Footer";
 
 function Apresentacao() {
@@ -83,11 +85,10 @@ function Apresentacao() {
         </div>
         <div className="Flex-row-I">
         <img src={Colab3} alt="Colaboradores" className="Colab" />
-        <img src={Colab2} alt="Colaboradores" className="Colab" />
+        <img src={Colab4} alt="Colaboradores" className="Colab" />
         </div>
         <div className="Flex-row-I">
-        <img src={Colab1} alt="Colaboradores" className="Colab" />
-        <img src={Colab2} alt="Colaboradores" className="Colab" />
+        <img src={Colab5} alt="Colaboradores" className="Colab" />
         </div>
       </div>
       </div>

@@ -1,20 +1,15 @@
 .navbar {
   background-color: #0066ccaa;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-}
-
-.logo h1 {
-  margin: 0;
-  font-size: 1.5rem;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 3rem; 
+  gap: 3rem;
 }
 
 .nav-links li {
@@ -23,7 +18,6 @@
 
 .nav-links li:hover {
   transform: scale(1.1);
-
 }
 
 .nav-links a {
@@ -34,28 +28,36 @@
 
 .nav-links a:hover {
   color: black;
-  
 }
 
-@media (max-width: 480px) {
-  .navbar {
-    flex-direction: column;
-    gap: 10px;
-    padding: 1rem;
-  }
+/* Ícone do menu hamburguer */
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
 
-  .logo h1 {
-    font-size: 1.3rem;
-    text-align: center;
+/* --- RESPONSIVO --- */
+@media (max-width: 480px) {
+  .menu-icon {
+    display: block;
   }
 
   .nav-links {
+    display: none;
     flex-direction: column;
-    gap: 0.5rem;
-    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 60px; /* abaixo da navbar */
+    left: 0;
+    right: 0;
+    background-color: #0066cc;
+    padding: 1rem;
+    text-align: center;
   }
 
-  .nav-links a {
-    font-size: 1rem;
+  .nav-links.active {
+    display: flex;
   }
 }

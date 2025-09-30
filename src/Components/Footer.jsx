@@ -17,12 +17,11 @@ function Footer() {
           <br/>
           <h4>Colaboradores:</h4>
           <ul>
-            <li> Matheus Antônio Romero Lamera - Nº 18</li>
             <li> Gustavo Henrique Teles de Freitas Nogueira - Nº 8</li>
             <li> Renan Wanderley Curvelo Gomes Santos- Nº 21</li>
             <li> João Victor Viana da Silva - Nº 10</li>
-            <li> - Nº </li>
-            <li> - Nº </li>
+            <li> Pedro - Nº </li>
+            <li> Felipe José Tamiossi Ramos - Nº </li>
           </ul>
         </div>
 

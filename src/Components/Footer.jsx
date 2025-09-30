@@ -20,8 +20,8 @@ function Footer() {
             <li> Gustavo Henrique Teles de Freitas Nogueira - Nº 8</li>
             <li> Renan Wanderley Curvelo Gomes Santos- Nº 21</li>
             <li> João Victor Viana da Silva - Nº 10</li>
-            <li> Pedro - Nº </li>
-            <li> Felipe José Tamiossi Ramos - Nº </li>
+            <li> Pedro Henrique de Barros Rocha - Nº 20 </li>
+            <li> Felipe José Tamiossi Ramos - Nº 05</li>
           </ul>
         </div>
 
@@ -32,7 +32,7 @@ function Footer() {
             Julia Piazzoli Domenegehetti, <br /> Desenvolvedora do site
           </p>
           <p>
-            Este projeto foi realizado para a disciplina de Eletiva - Blablabla,
+            Este projeto foi realizado para a disciplina de Eletiva - "Juntos podemos fazer a diferença!",
             com o apoio dos colegas e da instituição.
           </p>
           <p>
